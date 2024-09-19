@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reebok</title>
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            /* box-sizing: border-box; */
+        }
+        .logo{
+            height: 40px;
+            width: 150px;
+        }
+        nav{
+            padding: 2% 4%;  
+        }
+        nav ul{  
+            justify-content: space-between;
+            display: flex;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav ul li input{
+            border: none;
+            border-bottom: 1px solid black;
+            padding: 5px 10px;
+        }
+        nav ul li input:focus{
+            outline: none;
+        }
+        nav ul li button{
+            padding: 10px;
+            background-color: rgb(196,12,47);
+            border-radius: 50px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            width: 220px;
+        }
+        nav ul li button span{
+            font-size: 10px;
+            color: rgb(217, 215, 215);
+        }
+        .fa-truck-fast{
+            font-size: 20px;
+            position: absolute;
+            margin-left: -30px;
+            margin-top: 5px;
+        }
+        .cart_section{
+            display: flex;
+            padding: 1% 7%;
+        }
+        .cart{
+            width: 23%;
+            margin: auto;
+
+        }
+        .cart img{
+            width: 100%;
+
+        }
+        .cart_footer{
+            padding: 12px;
+        }
+        .cart_footer p{
+            color: rgb(76, 78, 76);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .cart_footer span{
+            float: right;
+        }
+        .cart_footer p{
+            color: rgb(76, 78, 76);
+            font-size: 15px;
+            margin-top: 5px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .cart_footer h4{
+            margin-top: 5px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .I_am_new{
+            position: absolute;
+            background: linear-gradient(100deg, rgb(49,196,137), rgb(46,166,218));
+            margin-top: 10px;
+            padding: 5px;
+            color: white;
+        }
+        .I_am_new + span{
+            margin-left: 18%;
+            margin-top: 10px;
+            position: absolute;
+        }
+    </style>    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOdReSPaRtFZ5FVcMXOwtLl5gQcBY4gPAhbubus2rgIosVdHuC3V_dKWvGXxl0DXsZIXQ&usqp=CAU" alt="" class="logo"></li>
+                <li><a href="">NEW</a></li>
+                <li><a href="">ICONS</a></li>
+                <li><a href="">MEN</a></li>
+                <li><a href="">WOMEN</a></li>
+                <li><a href="">SPORTS</a></li>
+                <li><a href="">CLASSIC</a></li>
+                <li><a href="">SALE</a></li>
+                <li><span><i class="fa-solid fa-magnifying-glass"></i></span><input type="text" placeholder="Search Classic"></li>
+                <li><button><i class="fa-solid fa-truck-fast"></i> EXPRESS DELIVEY <br><span>select your nearest store</span></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cart_section">
+        <div class="cart">
+            <div class="cart_header">
+                <span class="I_am_new">I AM THE NEW</span>
+                <span><i class="fa-regular fa-heart"></i></span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39622546-12753284.jpg?auto=format&w=390" alt="">
+            </div>
+            <div class="cart_footer">
+                <span><i class="fa-solid fa-expand"></i></span>
+                <p>WALKING SHOES</p> 
+                <p>Reebok Men Walking Shoes Walking..</p>
+                <h4>&#8377; 7,599</h4>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart_header">
+                <span class="I_am_new">I AM THE NEW</span>
+                <span><i class="fa-regular fa-heart"></i></span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39620279-13377621.jpg?auto=format&w=390" alt="">
+            </div>
+            <div class="cart_footer">
+                <span><i class="fa-solid fa-expand"></i></span>
+                <p>WALKING SHOES</p> 
+                <p>Reebok Men Walking Shoes Walking..</p>
+                <h4>&#8377; 7,599</h4>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart_header">
+                <span class="I_am_new">I AM THE NEW</span>
+                <span><i class="fa-regular fa-heart"></i></span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39710886-14664738.jpg?auto=format&w=390" alt="">
+            </div>
+            <div class="cart_footer">
+                <span><i class="fa-solid fa-expand"></i></span>
+                <p>WALKING SHOES</p> 
+                <p>Reebok Men Walking Shoes Walking..</p>
+                <h4>&#8377; 7,599</h4>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart_header">
+                <span class="I_am_new">I AM THE NEW</span>
+                <span><i class="fa-regular fa-heart"></i></span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39710887-14664746.jpg?auto=format&w=390" alt="">
+            </div>
+            <div class="cart_footer">
+                <span><i class="fa-solid fa-expand"></i></span>
+                <p>WALKING SHOES</p> 
+                <p>Reebok Men Walking Shoes Walking..</p>
+                <h4>&#8377; 7,599</h4>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
